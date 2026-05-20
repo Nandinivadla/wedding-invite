@@ -1,77 +1,136 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-rose-100 to-pink-50 text-center flex flex-col items-center justify-center p-6">
+    <main className="min-h-screen bg-gradient-to-b from-black via-[#2b1d1d] to-[#1a1a1a] text-white">
 
-      <h1 className="text-6xl md:text-8xl font-bold text-rose-700 mb-6">
-        Aarya ❤️ Rohan
-      </h1>
+      {/* HERO SECTION */}
+      <section className="flex flex-col items-center justify-center text-center px-6 py-32">
 
-      <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mb-10">
-        Together with their families,
-        joyfully invite you to celebrate their wedding
-        and share in the happiness of this beautiful beginning.
-      </p>
+        <h1 className="text-6xl md:text-8xl font-bold text-[#8A9A5B] mb-8 tracking-wide">
+          Forever With Her
+        </h1>
 
-      <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-2xl w-full">
+        <p className="text-2xl md:text-3xl text-[#d8ccb8] max-w-4xl leading-relaxed">
+          Together with their beloved family,
+          Isabelle & Leïla
+          joyfully invite you to celebrate
+          a love written for eternity.
+        </p>
 
-        <h2 className="text-4xl font-semibold text-rose-600 mb-6">
-          Wedding Celebration
+      </section>
+
+      {/* COUPLE MESSAGE */}
+      <section className="text-center px-6 py-20">
+
+        <h2 className="text-5xl md:text-6xl font-semibold text-[#8A9A5B] mb-10">
+          Isabelle & Leïla
         </h2>
 
-        <div className="space-y-4 text-lg text-gray-700">
+        <p className="max-w-4xl mx-auto text-lg md:text-xl text-gray-300 leading-10">
+          Through every moment, every smile,
+          and every challenge,
+          we found a love that became our home.
+          Today, we begin our forever together.
+        </p>
 
-          <p>📅 18 July 2026</p>
+      </section>
 
-          <p>🕕 6:00 PM onwards</p>
+      {/* FAMILY SECTION */}
+      <section className="px-8 py-20 max-w-6xl mx-auto">
 
-          <p>
-            📍 Le Grand Palace Hall,
-            Paris, France
-          </p>
+        <div className="bg-[#111111] border border-[#8A9A5B] rounded-3xl p-12 shadow-2xl">
 
-        </div>
-
-        <button className="mt-8 bg-rose-600 hover:bg-rose-700 transition text-white px-8 py-3 rounded-full text-lg shadow-lg">
-          RSVP With Love
-        </button>
-
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-8 mt-14 max-w-5xl w-full">
-
-        <div className="bg-white rounded-3xl shadow-xl p-8">
-          <h3 className="text-3xl font-bold text-rose-500 mb-4">
-            Bride's Family
+          <h3 className="text-4xl font-bold text-[#8A9A5B] mb-10 text-center">
+            The Clochard Family
           </h3>
 
-          <p className="text-lg text-gray-700">
-            Daughter of Mr. & Mrs. Sharma
-          </p>
+          <div className="grid md:grid-cols-2 gap-12">
 
-          <p className="mt-2 text-gray-600">
-            Origin: Jaipur, Rajasthan
-          </p>
+            <div>
+              <ul className="space-y-5 text-xl text-[#d8ccb8]">
+                <li>Isabelle Clochard</li>
+                <li>Olivier Clochard</li>
+                <li>Leïla Clochard</li>
+                <li>Nathanaël Clochard</li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-lg leading-9 text-gray-300">
+                Being welcomed into the Clochard family
+                is one of the most beautiful blessings of my life.
+                In your kindness, warmth, and love,
+                I found a family that feels like home forever.
+              </p>
+            </div>
+
+          </div>
+
         </div>
 
-        <div className="bg-white rounded-3xl shadow-xl p-8">
-          <h3 className="text-3xl font-bold text-rose-500 mb-4">
-            Groom's Family
+      </section>
+
+      {/* WEDDING DETAILS */}
+      <section className="px-6 py-20">
+
+        <div className="max-w-4xl mx-auto bg-[#161616] border border-[#5b3a29] rounded-3xl p-14 shadow-2xl text-center">
+
+          <h2 className="text-5xl font-bold text-[#8A9A5B] mb-12">
+            Wedding Celebration
+          </h2>
+
+          <div className="space-y-8 text-xl text-[#d8ccb8]">
+
+            <p>
+              📅 Saturday, August 1st, 2026
+            </p>
+
+            <p>
+              🕕 Ceremony Begins at 6:00 PM
+            </p>
+
+            <p>
+              📍 Château de Bordeaux, France
+            </p>
+
+            <p>
+              🥂 Dinner, Celebration & Dancing to Follow
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* WELCOME MESSAGE */}
+      <section className="px-6 py-20 text-center">
+
+        <div className="max-w-5xl mx-auto">
+
+          <h3 className="text-4xl font-bold text-[#8A9A5B] mb-8">
+            You Are Warmly Welcomed
           </h3>
 
-          <p className="text-lg text-gray-700">
-            Son of Mr. & Mrs. Reddy
+          <p className="text-xl text-gray-300 leading-10">
+            Your presence on this unforgettable day
+            means more to us than words can express.
+            Join us as we celebrate love, family,
+            and the beginning of forever.
           </p>
 
-          <p className="mt-2 text-gray-600">
-            Origin: Hyderabad, Telangana
-          </p>
         </div>
 
-      </div>
+      </section>
 
-      <p className="mt-16 text-gray-500 italic text-lg">
-        "Two hearts, one beautiful journey."
-      </p>
+      {/* QUOTE */}
+      <section className="px-6 py-24 text-center">
+
+        <p className="italic text-3xl text-[#d8ccb8] max-w-4xl mx-auto leading-relaxed">
+          “In your love, I found my forever.
+          In your family, I found my home.”
+        </p>
+
+      </section>
 
     </main>
   );
